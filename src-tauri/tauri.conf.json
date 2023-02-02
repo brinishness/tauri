@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.build",
+      "identifier": "com.brinishness.tears",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -55,7 +55,10 @@
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoint": "https://github.com/brinishness/tauri/releases/download/updater/updater.json",
+      "doalog": false,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDg4OEFGOTRCRDVCODRBQ0IKUldUTFNyalZTL21LaUt2UW1INm5XTHpEU1JHRFpxK2NxMmJFRXhLMlkwTyt3WTVxV2orZEpleUEK"
     },
     "windows": [
       {
