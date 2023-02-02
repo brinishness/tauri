@@ -56,7 +56,7 @@
     },
     "updater": {
       "active": true,
-      "endpoint": [
+      "endpoints": [
         "https://github.com/brinishness/tauri/releases/download/updater/updater.json"
       ],
       "dialog": true,
