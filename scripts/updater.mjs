@@ -2,7 +2,7 @@
  * @Author: tears 596231290@qq.com
  * @Date: 2023-02-03 00:13:40
  * @LastEditors: tears 596231290@qq.com
- * @LastEditTime: 2023-02-03 00:24:53
+ * @LastEditTime: 2023-02-03 01:14:19
  * @FilePath: /tauri-app/scripts/update.mjs
  * @版权声明 保留文件所有权利: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -102,10 +102,10 @@ async function updater() {
 
   // 将数据写入文件
   fs.writeFileSync(
-    './updater/install.json',
+    './updater/updater.json',
     JSON.stringify(updateData, null, 2)
   );
-  console.log('Generate updater/install.json');
+  console.log('Generate updater/updater.json');
 }
 
 updater().catch(console.error);
