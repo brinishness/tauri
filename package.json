@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "tauri:dev": "tauri dev",
-    "tauri:build": "tauri build"
+    "tauri:build": "tauri build",
+    "updater": "node scripts/updater.mjs",
+    "release": "node scripts/release.mjs"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",
@@ -20,8 +22,10 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@actions/github": "^5.1.1",
     "@tauri-apps/cli": "^1.2.2",
     "@vitejs/plugin-vue": "^4.0.0",
+    "node-fetch": "^3.3.0",
     "unplugin-auto-import": "^0.13.0",
     "unplugin-vue-components": "^0.23.0",
     "vite": "^4.0.0"
