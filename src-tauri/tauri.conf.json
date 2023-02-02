@@ -59,7 +59,7 @@
       "endpoint": [
         "https://github.com/brinishness/tauri/releases/download/updater/updater.json"
       ],
-      "doalog": true,
+      "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDg4OEFGOTRCRDVCODRBQ0IKUldUTFNyalZTL21LaUt2UW1INm5XTHpEU1JHRFpxK2NxMmJFRXhLMlkwTyt3WTVxV2orZEpleUEK"
     },
     "windows": [
